@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A&B Prime Location Land - รับฝากขายที่ดิน</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">A&B <span class="text-gold">Prime</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">หน้าหลัก</a></li>
+                <li><a href="#services">ค่าบริการ</a></li>
+                <li><a href="#listings">รายการที่ดิน</a></li>
+                <li><a href="#contact">ติดต่อเรา</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="container hero-content">
+            <h1 class="animate-fade-in">ที่ดิน เฉพาะเชียงราย&เชียงใหม่<br><span class="text-gold">เพื่อการลงทุนที่คุ้มค่า</span></h1>
+            <p class="animate-fade-up">ศูนย์รวมที่ดินศักยภาพสูง พร้อมบริการรับฝากขายที่ดินแบบมืออาชีพ</p>
+            <div class="hero-buttons animate-fade-up delay-1">
+                <a href="#post-listing" class="btn btn-primary">ลงประกาศขายฟรี</a>
+                <a href="#listings" class="btn btn-outline">ค้นหาที่ดิน</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Service Fees Functionality -->
+    <section id="services" class="section bg-dark-alt">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">อัตราค่าบริการ <span class="text-gold">รับฝากขาย</span></h2>
+                <div class="separator-gold"></div>
+                <p>เราดูแลการขายให้คุณอย่างมืออาชีพ โปร่งใส ตรวจสอบได้</p>
+            </div>
+            
+            <div class="grid-3">
+                <!-- Standard Plan -->
+                <div class="card fee-card">
+                    <div class="card-icon"><i class="fa-solid fa-handshake"></i></div>
+                    <h3>สัญญาฝากขายทั่วไป</h3>
+                    <div class="price">3% <span class="text-small">ของราคาขาย</span></div>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-check"></i> ถ่ายภาพที่ดินและทำป้ายประกาศ</li>
+                        <li><i class="fa-solid fa-check"></i> ลงประกาศในเว็บไซต์ชั้นนำ</li>
+                        <li><i class="fa-solid fa-check"></i> พาทรัพย์เยี่ยมชม</li>
+                        <li><i class="fa-solid fa-check"></i> ไม่มีค่าใช้จ่ายล่วงหน้า</li>
+                    </ul>
+                </div>
+
+                <!-- Exclusive Plan -->
+                <div class="card fee-card highlight-card">
+                    <div class="card-badge">ยอดนิยม</div>
+                    <div class="card-icon"><i class="fa-solid fa-gem"></i></div>
+                    <h3>สัญญาแต่งตั้งตัวแทน (Exclusive)</h3>
+                    <div class="price">3% <span class="text-small">ของราคาขาย</span></div>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-check"></i> <strong>การตลาดเชิงรุกเต็มรูปแบบ</strong></li>
+                        <li><i class="fa-solid fa-check"></i> ถ่ายภาพมุมสูง (Drone)</li>
+                        <li><i class="fa-solid fa-check"></i> บูสต์โพสต์ Facebook Ads</li>
+                        <li><i class="fa-solid fa-check"></i> วิเคราะห์ราคาตลาดอย่างลเอียด</li>
+                    </ul>
+                </div>
+
+                <!-- User Listing -->
+                <div class="card fee-card">
+                    <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>ลงประกาศเองผ่านเว็บ</h3>
+                    <div class="price">ฟรี <span class="text-small">ไม่มีค่าธรรมเนียม</span></div>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-check"></i> ลงข้อมูลได้ด้วยตนเอง</li>
+                        <li><i class="fa-solid fa-check"></i> แก้ไขข้อมูลได้ตลอด 24 ชม.</li>
+                        <li><i class="fa-solid fa-check"></i> แสดงผลบนหน้าเว็บไซต์ทันที</li>
+                        <li><i class="fa-solid fa-check"></i> จำกัด 5 ประกาศต่อบัญชี</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Listing Form Section -->
+    <section id="post-listing" class="section">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="section-header text-center">
+                    <h2 class="section-title">ลงประกาศ <span class="text-gold">ขายที่ดิน</span></h2>
+                    <div class="separator-gold"></div>
+                    <p>กรอกข้อมูลที่ดินของคุณให้ครบถ้วน เพื่อโอกาสในการขายที่รวดเร็วขึ้น</p>
+                </div>
+
+                <form id="landForm" class="land-form">
+                    <div class="form-grid">
+                        <div class="form-group span-2">
+                            <label>ชื่อประกาศ / หัวข้อที่ดิน <span class="required">*</span></label>
+                            <input type="text" id="title" placeholder="เช่น ขายที่ดิน 5 ไร่ ติดถนนใหญ่..." required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>ราคาขาย (บาท) <span class="required">*</span></label>
+                            <input type="number" id="price" placeholder="ระบุราคาเต็ม" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>ขนาดพื้นที่ (ไร่-งาน-ตร.ว.) <span class="required">*</span></label>
+                            <div class="size-inputs">
+                                <input type="number" id="rai" placeholder="ไร่" min="0">
+                                <input type="number" id="ngan" placeholder="งาน" min="0" max="3">
+                                <input type="number" id="wah" placeholder="ตร.ว." min="0" max="99">
+                            </div>
+                        </div>
+
+                        <div class="form-group span-2">
+                            <label>ทำเล / ที่ตั้ง <span class="required">*</span></label>
+                            <input type="text" id="location" placeholder="ระบุ เขต, จังหวัด หรือ สถานที่ใกล้เคียง" required>
+                        </div>
+
+                        <div class="form-group span-2">
+    <label for="imageFile">
+        รูปภาพ <span class="required">*</span>
+    </label>
+
+    <input 
+        type="file"
+        id="imageFile"
+        name="imageFile"
+        accept="image/jpeg, image/png"
+        capture="environment"
+        required
+        onchange="previewImage(event)"
+    >
+
+    <small class="text-muted">
+        รองรับไฟล์ .jpg, .jpeg, .png หรือถ่ายจากกล้องโทรศัพท์
+    </small>
+
+    <!-- แสดงตัวอย่างรูป -->
+    <div class="image-preview">
+        <img id="preview" alt="ตัวอย่างรูปภาพ">
+    </div>
+</div>
+
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-block">ยืนยันการลงประกาศ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Listings Display Section -->
+    <section id="listings" class="section bg-dark-alt">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">รายการที่ดิน <span class="text-gold">แนะนำ</span></h2>
+                <div class="separator-gold"></div>
+            </div>
+
+            <div id="listingsContainer" class="grid-3 listings-grid">
+                <!-- Listings will be injected here by JS -->
+            </div>
+            
+            <div id="noListingsMessage" class="text-center hidden">
+                <p>ยังไม่มีรายการที่ดินในขณะนี้ เป็นคนแรกที่ลงประกาศเลย!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>A&B <span class="text-gold">Prime Location</span></h2>
+                    <p>ผู้นำด้านการซื้อขายและฝากขายที่ดิน มืออาชีพที่คุณไว้วางใจได้</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>ติดต่อเรา</h3>
+                    <p><i class="fa-solid fa-phone text-gold"></i> 088-765-0875</p>
+                    <p><i class="fa-solid fa-envelope text-gold"></i> abprimelocationland@gmail.com</p>
+                    <p><i class="fa-brands fa-facebook text-gold"></i> A&B Prime location land </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 A&B Prime Location Land. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
